@@ -1,6 +1,6 @@
 $(function() {
     $('#yes').click(function(event) {
-        modal('我就知道李老师你会愿意的。(^_^)', function() {
+        modal('我就知道你会愿意的。(^_^)', function() {
             $('.page_one').addClass('hide');
             $('.page_two').removeClass('hide');
             // typeWrite();
